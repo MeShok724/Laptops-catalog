@@ -1,5 +1,5 @@
 body{
-    background: #f0f0f0;
+    background: #ffffff;
 }
 img {
     height: auto;
@@ -7,7 +7,7 @@ img {
     horiz-align: left;
 }
 .content{
-    margin-top: 50px;
+    margin-top: 250px;
 }
 .product {
     background: #ffffff none repeat scroll 0 0;
@@ -43,4 +43,55 @@ img {
     color: black;
     font-size: 18px;
     font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.menu-header {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+    border-top: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.menu-list {
+    position: relative;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    height: 60px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+    align-items: center;
+    display: flex;
+}
+.menu-catalog {
+    position: absolute;
+    width: 260px;
+    top: 0;
+    background-color: #fff;
+}
+.menu-nav {
+    height: 60px;
+    padding-left: 290px;
+    /*height: 100%;*/
+    display: flex;
+    align-items: center;
 }
